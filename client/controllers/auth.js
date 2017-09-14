@@ -9,6 +9,7 @@ myApp.controller('AuthController', ['$scope', '$http', '$location', '$routeParam
    console.log('AuthController loaded...');
    console.log(localStorage.token);
 
+
      var getToken = function () {
          return $scope.localStorage('token');
          console.log($scope.localStorage('token'));
